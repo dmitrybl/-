@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dmitrybelyaev/C++/EightPuzzleSolver/eightpuzzlesolver.cpp
+eightpuzzlesolver.h
+/Users/dmitrybelyaev/C++/EightPuzzleSolver/eightpuzzlesolver.h
+iostream
+-
+fstream
+-
+
+/Users/dmitrybelyaev/C++/EightPuzzleSolver/eightpuzzlesolver.h
+vector
+-
+queue
+-
+set
+-
+string
+-
+utility
+-
+
+/Users/dmitrybelyaev/C++/EightPuzzleSolver/main.cpp
+iostream
+-
+eightpuzzlesolver.h
+/Users/dmitrybelyaev/C++/EightPuzzleSolver/eightpuzzlesolver.h
+
